@@ -1,2 +1,6 @@
 *-cache
 *-bak
+_autosave*
+*.dcm
+*.lib
+*-table
