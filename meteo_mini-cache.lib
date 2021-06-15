@@ -55,9 +55,9 @@ $FPLIST
  LED_THT:*
 $ENDFPLIST
 DRAW
-P 2 0 1 10 -50 -50 -50 50 N
+P 2 0 1 8 -50 -50 -50 50 N
 P 2 0 1 0 -50 0 50 0 N
-P 4 0 1 10 50 -50 50 50 -50 0 50 -50 N
+P 4 0 1 8 50 -50 50 50 -50 0 50 -50 N
 P 5 0 1 0 -120 -30 -180 -90 -150 -90 -180 -90 -180 -60 N
 P 5 0 1 0 -70 -30 -130 -90 -100 -90 -130 -90 -130 -60 N
 X K 1 -150 0 100 R 50 50 1 1 P
@@ -204,11 +204,11 @@ X B 2 200 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# meteo_mini-rescue_USB_A-Connector
+# meteo_mini-rescue_USB_A-Connector-meteo_mini-rescue
 #
-DEF meteo_mini-rescue_USB_A-Connector J 0 40 Y Y 1 F N
+DEF meteo_mini-rescue_USB_A-Connector-meteo_mini-rescue J 0 40 Y Y 1 F N
 F0 "J" -200 450 50 H V L CNN
-F1 "meteo_mini-rescue_USB_A-Connector" -200 350 50 H V L CNN
+F1 "meteo_mini-rescue_USB_A-Connector-meteo_mini-rescue" -200 350 50 H V L CNN
 F2 "" 150 -50 50 H I C CNN
 F3 "" 150 -50 50 H I C CNN
 $FPLIST

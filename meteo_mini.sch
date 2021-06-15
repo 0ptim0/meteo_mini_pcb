@@ -438,7 +438,7 @@ F 3 "" H 1150 1845 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L meteo_mini-rescue:USB_A-Connector J1
+L meteo_mini-rescue:USB_A-Connector-meteo_mini-rescue J1
 U 1 1 5F65E491
 P 1450 1645
 F 0 "J1" H 1507 2112 50  0000 C CNN
@@ -849,8 +849,8 @@ Text Label 4450 3500 0    50   ~ 0
 LED
 Wire Wire Line
 	2325 6325 2325 6225
-Text Label 2325 6225 0    50   ~ 0
-LED
 Text Notes 1800 5675 0    197  ~ 0
 LED\n
+Text Label 2325 6225 0    50   ~ 0
+LED
 $EndSCHEMATC
