@@ -414,7 +414,6 @@ F 3 "" H 1450 1245 50  0001 C CNN
 	1    1450 1245
 	-1   0    0    1   
 $EndComp
-NoConn ~ 5075 2275
 $Comp
 L power:+5V #PWR018
 U 1 1 5F682D14
@@ -591,17 +590,6 @@ Text Label 875  3925 0    50   ~ 0
 I2C1SDA
 Text Label 875  4125 0    50   ~ 0
 I2C1SCL
-$Comp
-L MCU_ST_STM32F1:STM32F103C8Tx U2
-U 1 1 5EBD74CA
-P 5550 2900
-F 0 "U2" H 5500 1311 50  0001 C CNN
-F 1 "STM32F103C8T6" H 5500 1220 50  0001 C CNN
-F 2 "Package_QFP:LQFP-48_7x7mm_P0.5mm" H 4950 1500 50  0001 R CNN
-F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00161566.pdf" H 5550 2900 50  0001 C CNN
-	1    5550 2900
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:+3.3V #PWR017
 U 1 1 5ED344C6
@@ -853,4 +841,15 @@ Text Notes 1800 5675 0    197  ~ 0
 LED\n
 Text Label 2325 6225 0    50   ~ 0
 LED
+$Comp
+L MCU_ST_STM32F1:STM32F103C8Tx U2
+U 1 1 5EBD74CA
+P 5550 2900
+F 0 "U2" H 5500 1311 50  0001 C CNN
+F 1 "STM32F103C8T6" H 5500 1220 50  0001 C CNN
+F 2 "Package_QFP:LQFP-48_7x7mm_P0.5mm" H 4950 1500 50  0001 R CNN
+F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00161566.pdf" H 5550 2900 50  0001 C CNN
+	1    5550 2900
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

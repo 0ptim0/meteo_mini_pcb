@@ -4,3 +4,4 @@ _autosave*
 *.dcm
 *.lib
 *-table
+GERBER/
